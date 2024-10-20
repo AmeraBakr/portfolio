@@ -4,7 +4,7 @@ import './Main.css';
 
 
 const myProjects = [
-  { projectTitle: "React Project", category: "react", imgPath: "/img/1.jpg" },
+  { projectTitle: "React Project", category: "react", imgPath: "/img/Eslam.jpg" },
   { projectTitle: "React Project", category: "react", imgPath: "./../../../public/img/6.jpg" },
   { projectTitle: "Css Project", category: "css", imgPath: "./../../../public/img/3.jpg" },
   { projectTitle: "Css Project", category: "css", imgPath: "./../../../public/img/4.jpg" },
