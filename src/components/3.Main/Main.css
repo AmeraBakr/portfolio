@@ -1,0 +1,111 @@
+.main {
+   
+    display: flex;
+    align-items: flex-start !important; 
+   
+}
+
+.main .left{
+    flex-direction: column;
+    gap: 10px;
+}
+.main .left button{
+    background-color:   rgba(36,37, 46,1);
+    width: 11rem;
+    padding: 0.75rem 0;
+    text-align: center;
+    font-size: 1rem;
+    opacity: 0.5;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+.main .left  .active{
+    opacity: 1;
+    font-weight: bold;
+ 
+    border: 1px solid var(--blue);
+}
+.main .left button:hover{
+    opacity: 1;
+}
+.main .right{
+    justify-content: center;
+ flex-wrap: wrap;
+column-gap: 8px;
+row-gap: 20px;
+    
+    }
+.main .right .box{
+    padding: 0.2rem 0.4rem;
+}
+.main .right h1{
+    color: var(--title);
+}
+.main .right p{
+font-size: 0.8rem;
+color: var(--subtitle);
+margin-top: 0.3rem;
+margin-bottom: 0.5rem;
+}
+
+.main .icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .flexx{
+    display: flex;
+ 
+}
+.main .icon-github, .main .icon-link{
+    font-size: 1.2rem;
+    color: var(--subtitle);
+}
+.main .icon-github:hover, .main .icon-link:hover{
+    font-size: 1.25rem;
+    color: var(--title);
+    cursor: pointer;
+}
+.main .right img{
+    border-radius:5px;
+}
+.main .right .link{
+    font-size: 0.9rem;
+    color: var(--blue);
+    display: flex;
+    margin-right: 12px;
+  
+}
+.main .card{
+    border: 1px solid rgba(93,188,252, 0.3);
+    border-radius: 5px;
+    transition: 0.3s;
+    background-image: linear-gradient(rgba(241, 241, 241, 0.11) ,rgba(241, 241, 241, 0.11));
+}
+.main .card:hover{
+    border: 1px solid var(--blue);
+    
+    rotate: 1deg;
+    scale: 1.01;
+    cursor: pointer;
+}
+
+@media (max-width: 900px){
+    .main {
+   
+        display: flex;
+    flex-direction: column;
+        align-items: center !important; 
+        z-index: -2;
+        position: absolute;
+    }
+    .main .left{
+        flex-direction: row;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2rem;
+
+    }
+}

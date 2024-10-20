@@ -1,0 +1,37 @@
+.footer{
+    display: flex;
+   justify-content: space-between;
+   margin-bottom: 1.9rem;
+}
+.footer .flexx{
+    display: flex;
+}
+.footer .flexx ul{
+    gap: 1rem;
+    
+}
+.footer .flexx  a{
+color: var(--subtitle) !important;
+font-size: 0.8rem;
+font-weight: 400;
+transition: 0.3s;
+}
+.footer .flexx  a:hover{
+    color: var(--blue) !important;
+font-size: 0.9rem;
+font-weight: 500;
+}
+.footer  p{
+    color: rgba(113, 113, 122, 0.781);
+    font-size: 0.9rem;
+}
+@media (max-width: 800px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1.9rem;
+        gap: 1rem;
+    } 
+    
+}

@@ -1,0 +1,116 @@
+.Contact .icon-mail{
+    color: var(--subtitle);
+    margin-right: 1rem;
+    font-size: 1.8rem;
+}
+.Contact .title{
+    color: var(--title);
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+
+}
+.Contact p{
+    color: var(--subtitle);
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.Contact input,.Contact textarea{
+all: unset;
+background-color: rgba(63, 63, 70,0.75);
+border: 1px solid rgb(63,63,70);
+width: 16rem;
+padding:0.5rem 1rem ;
+margin-left: 1rem;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.Contact input:focus, .Contact textarea:focus{
+border: 1px solid rgb(29, 69, 245);
+}  
+.Contact input:hover, .Contact textarea:hover{
+    border: 1px solid  rgb(29, 69, 245);
+    }  
+    
+
+.Contact .massage{
+    display: flex;
+    align-items: center;
+
+}
+.Contact textarea{
+    min-height: 9rem;
+    resize: vertical;
+}
+
+.Contact .submit{
+    background-color:   rgba(36,37, 46,1);
+   
+    padding: 0.75rem 2rem;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    border: 1px solid rgb(63,63,70);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.Contact .submit:hover{
+    scale: 0.9;
+}
+.Contact .submit:disabled{
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+.Contact .flexx{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+.Contact .flexx label{
+    color: var(--title);
+    font-weight: bold;
+}
+
+@media (max-width: 1100px){
+    .Contact.animation{
+        display: none;
+        /* z-index: -2; */
+    }
+
+}
+@media (max-width: 600px) {
+    .Contact form{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+     
+      
+    }
+    .Contact .flexx{
+        display: flex;
+        flex-direction: column;
+      align-items:flex-start;
+     
+    }
+    .Contact input,.Contact textarea{
+        width: 100%;
+        margin-left: 0;
+        padding: 0.5rem 0;
+        margin-top: 1rem;
+    }
+    .Contact .submit{
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Contact  .animation{
+        display: none;
+    }
+   
+}
+
+
+
+
