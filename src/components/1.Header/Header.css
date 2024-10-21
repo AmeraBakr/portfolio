@@ -67,13 +67,14 @@ button{
 ================ */
 .fixed{
     position: fixed;
-    /* top: 0;
+    top: 0;
     bottom: 0;
     right: 0;
-    left: 0; */
+    left: 0;
     inset: 0;
     background-color:rgba(44, 44, 46, 0.842);
     backdrop-filter: blur(8px);
+    z-index: 1;
 }
 #mode{
     margin-top: 1rem;
@@ -136,8 +137,7 @@ transition: 0.2s;
     border-radius:1rem;
     padding: 1rem 2rem;
     background-color: var(--secondary);
-  
- 
+
 }
 .model li{
     border-bottom: 1px solid var(--border);
