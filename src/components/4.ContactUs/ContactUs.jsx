@@ -50,7 +50,7 @@ function ContactUs() {
             </button>
             {state.succeeded && (
               <p
-                className=""
+                className="done"
                 style={{
                   display: "flex",
                   alignItems: "center",

@@ -5,12 +5,12 @@ import './Main.css';
 
 const myProjects = [
   { projectTitle: "React Project", category: "react", imgPath: "/img/Eslam.jpg" },
-  { projectTitle: "React Project", category: "react", imgPath: "./../../../public/img/6.jpg" },
-  { projectTitle: "Css Project", category: "css", imgPath: "./../../../public/img/3.jpg" },
-  { projectTitle: "Css Project", category: "css", imgPath: "./../../../public/img/4.jpg" },
-  { projectTitle: "Bootstrap Project", category: "Bootstrap", imgPath: "./../../../public/img/5.jpg" },
-  { projectTitle: "Bootstrap Project", category: "Bootstrap", imgPath: "./../../../public/img/2.jpg" },
-  { projectTitle: "JavaScript Project", category: "JavaScript", imgPath: "./../../../public/img/7.jpg" },
+  { projectTitle: "React Project", category: "react", imgPath: "/img/6.jpg" },
+  { projectTitle: "Css Project", category: "css", imgPath: "/img/3.jpg" },
+  { projectTitle: "Css Project", category: "css", imgPath: "/img/4.jpg" },
+  { projectTitle: "Bootstrap Project", category: "Bootstrap", imgPath: "/img/5.jpg" },
+  { projectTitle: "Bootstrap Project", category: "Bootstrap", imgPath: "/img/2.jpg" },
+  { projectTitle: "JavaScript Project", category: "JavaScript", imgPath: "/img/7.jpg" },
 ];
 
 function Main() {
